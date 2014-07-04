@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC41ED1F19595350005D91FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41ED1E19595350005D91FE /* ViewController.m */; };
+		EC41ED2219595582005D91FE /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41ED2119595582005D91FE /* CustomSegue.m */; };
+		EC46066F1963CC6E00A33992 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC46066E1963CC6E00A33992 /* MapKit.framework */; };
+		EC53E26819553E9800CD9696 /* AnimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC53E26719553E9800CD9696 /* AnimeViewController.m */; };
+		EC53E26B1955519C00CD9696 /* BNHtmlPdfKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC53E26A1955519C00CD9696 /* BNHtmlPdfKit.m */; };
+		EC5A68FD195A88F800330D0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5A68FC195A88F800330D0E /* QuartzCore.framework */; };
+		EC627E3C195D4C000019FC9E /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC627E3B195D4C000019FC9E /* opencv2.framework */; };
+		EC627E3E195D8D390019FC9E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC627E3D195D8D390019FC9E /* libz.dylib */; };
 		ECD8B20F1945C54B007E1C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8B20E1945C54B007E1C85 /* Foundation.framework */; };
 		ECD8B2111945C54B007E1C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8B2101945C54B007E1C85 /* CoreGraphics.framework */; };
 		ECD8B2131945C54B007E1C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8B2121945C54B007E1C85 /* UIKit.framework */; };
@@ -35,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC41ED1D19595350005D91FE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC41ED1E19595350005D91FE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC41ED2019595582005D91FE /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		EC41ED2119595582005D91FE /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
+		EC46066E1963CC6E00A33992 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EC53E26619553E9800CD9696 /* AnimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimeViewController.h; sourceTree = "<group>"; };
+		EC53E26719553E9800CD9696 /* AnimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimeViewController.m; sourceTree = "<group>"; };
+		EC53E2691955519C00CD9696 /* BNHtmlPdfKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHtmlPdfKit.h; sourceTree = "<group>"; };
+		EC53E26A1955519C00CD9696 /* BNHtmlPdfKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNHtmlPdfKit.m; sourceTree = "<group>"; };
+		EC5A68FC195A88F800330D0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC627E3B195D4C000019FC9E /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		EC627E3D195D8D390019FC9E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		ECD8B20B1945C54B007E1C85 /* TabTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD8B20E1945C54B007E1C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECD8B2101945C54B007E1C85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +83,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC46066F1963CC6E00A33992 /* MapKit.framework in Frameworks */,
+				EC627E3E195D8D390019FC9E /* libz.dylib in Frameworks */,
+				EC5A68FD195A88F800330D0E /* QuartzCore.framework in Frameworks */,
 				ECD8B2111945C54B007E1C85 /* CoreGraphics.framework in Frameworks */,
 				ECD8B2131945C54B007E1C85 /* UIKit.framework in Frameworks */,
+				EC627E3C195D4C000019FC9E /* opencv2.framework in Frameworks */,
 				ECD8B20F1945C54B007E1C85 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +128,10 @@
 		ECD8B20D1945C54B007E1C85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC46066E1963CC6E00A33992 /* MapKit.framework */,
+				EC627E3D195D8D390019FC9E /* libz.dylib */,
+				EC627E3B195D4C000019FC9E /* opencv2.framework */,
+				EC5A68FC195A88F800330D0E /* QuartzCore.framework */,
 				ECD8B20E1945C54B007E1C85 /* Foundation.framework */,
 				ECD8B2101945C54B007E1C85 /* CoreGraphics.framework */,
 				ECD8B2121945C54B007E1C85 /* UIKit.framework */,
@@ -116,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				ECD8B21D1945C54B007E1C85 /* AppDelegate.h */,
+				EC53E2691955519C00CD9696 /* BNHtmlPdfKit.h */,
+				EC53E26A1955519C00CD9696 /* BNHtmlPdfKit.m */,
 				ECD8B21E1945C54B007E1C85 /* AppDelegate.m */,
 				ECD8B2201945C54B007E1C85 /* Main.storyboard */,
 				ECD8B2231945C54B007E1C85 /* FirstViewController.h */,
@@ -124,6 +154,12 @@
 				ECD8B2271945C54B007E1C85 /* SecondViewController.m */,
 				ECD8B2291945C54B007E1C85 /* Images.xcassets */,
 				ECD8B2151945C54B007E1C85 /* Supporting Files */,
+				EC53E26619553E9800CD9696 /* AnimeViewController.h */,
+				EC53E26719553E9800CD9696 /* AnimeViewController.m */,
+				EC41ED1D19595350005D91FE /* ViewController.h */,
+				EC41ED1E19595350005D91FE /* ViewController.m */,
+				EC41ED2019595582005D91FE /* CustomSegue.h */,
+				EC41ED2119595582005D91FE /* CustomSegue.m */,
 			);
 			path = TabTest;
 			sourceTree = "<group>";
@@ -254,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC41ED1F19595350005D91FE /* ViewController.m in Sources */,
+				EC53E26819553E9800CD9696 /* AnimeViewController.m in Sources */,
 				ECD8B2281945C54B007E1C85 /* SecondViewController.m in Sources */,
+				EC53E26B1955519C00CD9696 /* BNHtmlPdfKit.m in Sources */,
+				EC41ED2219595582005D91FE /* CustomSegue.m in Sources */,
 				ECD8B21F1945C54B007E1C85 /* AppDelegate.m in Sources */,
 				ECD8B2251945C54B007E1C85 /* FirstViewController.m in Sources */,
 				ECD8B21B1945C54B007E1C85 /* main.m in Sources */,
@@ -382,6 +422,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabTest/TabTest-Prefix.pch";
 				INFOPLIST_FILE = "TabTest/TabTest-Info.plist";
@@ -395,6 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabTest/TabTest-Prefix.pch";
 				INFOPLIST_FILE = "TabTest/TabTest-Info.plist";
@@ -462,6 +510,7 @@
 				ECD8B2421945C54B007E1C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECD8B2431945C54B007E1C85 /* Build configuration list for PBXNativeTarget "TabTestTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +519,7 @@
 				ECD8B2451945C54B007E1C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
