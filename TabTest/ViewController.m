@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Emgeesons. All rights reserved.
 //
 
+/****************** this is changes in test 2 branch ************/
+
 #import "ViewController.h"
 @import QuartzCore;
 
